@@ -5,17 +5,17 @@ public class Main {
         flower1.name = "Роза обыкновенная";
         System.out.println(flower1);
 
-        Flower flower2 = new Flower("", "", 15f);
+        Flower flower2 = new Flower("", "", 15.00f);
         flower2.name = "Хризантема";
         flower2.lifeSpan = 5;
         System.out.println(flower2);
 
-        Flower flower3 = new Flower("", "Англия", 69.9f);
+        Flower flower3 = new Flower("", "Англия", 69.90f);
         flower3.name = "Пион";
         flower3.lifeSpan = 1;
         System.out.println(flower3);
 
-        Flower flower4 = new Flower("", "Турция", 19.5f);
+        Flower flower4 = new Flower("", "Турция", 19.50f);
         flower4.name = "Гипсофила";
         flower4.lifeSpan = 10;
         System.out.println(flower4);
