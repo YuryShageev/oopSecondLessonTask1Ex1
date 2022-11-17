@@ -29,6 +29,7 @@ public class Flower {
     }
 
     Flower(String flowerColor, String country, float cost, int lifeSpan) {
+        this();
         if (flowerColor == null || flowerColor.isEmpty() || flowerColor.isBlank()) {
             this.flowerColor = "Белый";
         } else {
@@ -51,6 +52,10 @@ public class Flower {
             this.lifeSpan = lifeSpan;
         }
 
+    }
+
+    Flower() {
+        String name = "Цветок";
     }
 
 }
