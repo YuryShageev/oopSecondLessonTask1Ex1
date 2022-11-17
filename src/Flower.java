@@ -57,7 +57,7 @@ public class Flower {
 
     Flower() {
         name = "Цветок";
-        lifeSpan = 3;
+        lifeSpan = 0;
     }
 
     @Override
