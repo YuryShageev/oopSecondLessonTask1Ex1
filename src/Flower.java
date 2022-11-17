@@ -60,6 +60,7 @@ public class Flower {
         lifeSpan = 0;
     }
 
+
     @Override
     public String toString() {
         return name + ". Цвет - " + getFlowerColor() + ". Страна происхождения - " + getCountry() + ". Стоимостью - " + getCost()
