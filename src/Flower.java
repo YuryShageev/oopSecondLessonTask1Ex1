@@ -3,6 +3,7 @@ public class Flower {
     private String country;
     private float cost;
     int lifeSpan;
+    String name;
 
     public String getFlowerColor() {
         return flowerColor;
@@ -28,7 +29,7 @@ public class Flower {
         this.cost = cost;
     }
 
-    Flower(String flowerColor, String country, float cost, int lifeSpan) {
+    Flower(String flowerColor, String country, float cost) {
         this();
         if (flowerColor == null || flowerColor.isEmpty() || flowerColor.isBlank()) {
             this.flowerColor = "Белый";
@@ -55,7 +56,14 @@ public class Flower {
     }
 
     Flower() {
-        String name = "Цветок";
+        name = "Цветок";
+        lifeSpan = 3;
+    }
+
+    @Override
+    public String toString() {
+        return name + ". Цвет - " + getFlowerColor() + ". Страна происхождения - " + getCountry() + ". Стоимостью - " + getCost()
+                + ". Срок стояния - " + lifeSpan + " дня/дней";
     }
 
 }
