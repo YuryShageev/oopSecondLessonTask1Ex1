@@ -60,7 +60,7 @@ public class Main {
         int flower1Number = 3;
         int flower2Number = 5;
         int flower3Number = 1;
-        int flower4Number = 3;
+        int flower4Number = 0;
         int sum = flower1Number + flower2Number + flower3Number + flower4Number;
         Flower[] flowers = new Flower[sum];
 
